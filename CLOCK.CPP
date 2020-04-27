@@ -259,16 +259,28 @@ void main()
 					outtextxy(475,370,"9");
 					outtextxy(514,408,"6");
 
+				settextstyle(3,HORIZ_DIR,1);
 
 
-				circle(345,103,2);
-				circle(378,135,2);
-				circle(378,225,2);
-				circle(345,260,2);
-				circle(253,258,2);
-				circle(223,225,2);
-				circle(223,135,2);
-				circle(253,103,2);
+				// circle(345,103,2);
+				// circle(378,135,2);
+				// circle(378,225,2);
+				// circle(345,260,2);
+				// circle(253,258,2);
+				// circle(223,225,2);
+				// circle(223,135,2);
+				// circle(253,103,2);
+
+				outtextxy(343,100,"1");
+				outtextxy(378,134,"2");
+				outtextxy(372,212,"4");
+				outtextxy(342,245,"5");
+				outtextxy(253,245,"7");
+				outtextxy(225,215,"8");
+				outtextxy(215,135,"10");
+				outtextxy(242,100,"11");
+
+
 
 				setcolor(RED);
 				pieslice(300,180,i-2,i,75);
