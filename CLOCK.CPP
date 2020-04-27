@@ -137,7 +137,7 @@ void main()
 
 	h_jap = h + 3;
 	if(h_jap>23){
-		h_jap = h_jap - 25;
+		h_jap = h_jap - 24;
 	}
 	m_jap = m + 30;
 		if(m_jap>59){
@@ -149,7 +149,7 @@ void main()
 
 	h_york = h - 9;
 	if(h_york<0){
-		h_york = 25 + h_york;
+		h_york = 24 + h_york;
 	}
 	m_york = m - 30;
 		if(m_york< 0){
@@ -161,7 +161,7 @@ void main()
 
 	h_lon = h - 4;
 	if(h_lon<0){
-		h_lon = 25 + h_lon;
+		h_lon = 24 + h_lon;
 	}
 	m_lon = m - 30;
 		if(m_lon< 0){
