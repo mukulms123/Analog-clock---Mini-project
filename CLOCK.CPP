@@ -209,11 +209,6 @@ void main()
 				settextstyle(8,HORIZ_DIR,2);
 
 
-				outtextxy(385,170,"3");
-				outtextxy(288,78,"12");
-				outtextxy(207,170,"9");
-				outtextxy(295,250,"6");
-
 				settextstyle(3,HORIZ_DIR,1);
 				setcolor(6);
 				circle(300,180,102);
@@ -272,14 +267,29 @@ void main()
 				// circle(253,103,2);
 
 				outtextxy(343,100,"1");
+				circle(354,112,1);
+				circle(362,118,1);
+				circle(369,127,1);
+				circle(375,136,1);
 				outtextxy(378,134,"2");
+				circle(389,146,1);
+				circle(397,152,1);
+				circle(402,127,1);
+				circle(375,136,1);
+				outtextxy(385,170,"3");
+				circle(354,112,1);
+				circle(362,118,1);
+				circle(369,127,1);
+				circle(375,136,1);
 				outtextxy(372,212,"4");
 				outtextxy(342,245,"5");
+				outtextxy(295,250,"6");
 				outtextxy(253,245,"7");
 				outtextxy(225,215,"8");
+				outtextxy(207,170,"9");
 				outtextxy(215,135,"10");
 				outtextxy(242,100,"11");
-
+				outtextxy(288,78,"12");
 
 
 				setcolor(RED);
